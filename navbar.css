@@ -1,0 +1,87 @@
+	  /*@import url(https://fonts.googleapis.com/css?family=Righteous);*/
+	  
+	  /*Navigation Bar*/
+	  #site-header {
+		display: flex;
+		background: transparent;
+		background-size: fill;
+		width: 100%;
+		align-items: center;
+		top: 0;
+		height: 7.5%;
+		align-items: center;
+		z-index: 999;
+		border-bottom: .15vmax solid rgb(240, 150, 65);
+		/*prevent border from expanding page*/
+		box-sizing: border-box;
+	  }
+		#site-header > div {
+			flex: 1;
+			display: flex;
+		}
+			#site-header > div > ul {
+				list-style: none;
+				display: flex;
+				flex-flow: row nowrap;
+				align-items: center;
+				width: 100%;
+				text-align: center;
+				justify-content: center;
+			}
+				#site-header > div > ul > li {
+					flex: 1;
+					background: radial-gradient(circle,rgba(0, 51, 102, 0.75), transparent);
+					height: 100%;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					
+				}
+					#site-header > div > ul > li:hover {
+						background: radial-gradient(circle,rgba(240, 150, 65, 0.50), transparent);
+						transition-delay: 1s;
+					}
+					#site-header > div > ul > li > a:link,
+					#site-header > div > ul > li > a:visited {
+						color: rgb(240, 150, 65);
+						text-decoration: none;
+						/*Hackish Min Text Size. Actual support set for CSS4*/
+						font-size: calc(.75rem + .75vmin);
+						display: inline-block;
+						height: 100%;
+						width: 100%;
+						lline-height: 150%;
+						line-height: 250%;
+					}
+					#site-header > div > ul > li > a:hover {
+						color: lightgray;
+						text-decoration: none;
+					}
+					#site-header > div > ul > li > a:active {
+						color: gray;
+					}
+
+                
+        @media (max-width: 750px) {
+            /*Set the header size to auto, to allow columninization to expand*/
+            #site-header {
+                height: auto;
+            }
+                /*change from row to column*/
+                #site-header > div > ul {
+                    flex-flow: column nowrap;
+                    height: auto;
+				}
+				/* align bar to left with 5% space from right | reset li flex hack to block so stoof dun mash*/
+				#site-header > div > ul > li {
+					margin-left: auto;
+					margin-right: 5%;
+					height: auto;
+					display: inline;
+					line-height: auto;
+				}
+					#site-header div > ul > li > a:link,
+					#site-header > div > ul > li > a:visited {
+						display: inline;
+					}
+        }
