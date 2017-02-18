@@ -688,19 +688,19 @@ function call($result) {
 </head>
 <body ondragstart="return false;" ondrop="return false;">
         <!--Flexbox Navigation-->
-    <header id="site-header">
-          <div>
-            <ul>
-                <li style="background: none;"><a title="Under Development" style="color: darkred;font-family: 'Righteous', cursive;" href="#0">Dashboard</a></li>
-                <li><a style="font-family: 'Righteous', cursive;" href="#" style="color: gray; text-decoration: overline;">Recents</a></li>
-                <li><a style="font-family: 'Righteous', cursive;" href="playercard.php">Playercard</a></li>
-                <li style="background: none;"><a title="Under Development" style="color: darkred;font-family: 'Righteous', cursive;" href="#0">Game&nbsp;Info</a></li>
-                <li style="background: none;"><a title="Under Development" style="color: darkred;font-family: 'Righteous', cursive;" href="#0">PB&nbsp;Analytics</a></li>
-                <li style="background: none;"><a title="Under Development" style="color: darkred;font-family: 'Righteous', cursive;" href="#0">Developer</a></li>
-                <li><a style="font-family: 'Righteous', cursive;" href="user.html">User</a></li>
-            </ul>
-          </div>
-    </header>
+        <header id="site-header">
+              <div>
+                <ul>
+                    <li style="background: none;"><a title="Under Development" style="color: darkred;font-family: 'Righteous', cursive;" href="#0">Dashboard</a></li>
+                    <li><a style="font-family: 'Righteous', cursive;" href="#" style="color: gray; text-decoration: overline;">Recents</a></li>
+		    <li><a style="font-family: 'Righteous', cursive;" href="playercard.php">Playercard</a></li>
+                    <li style="background: none;"><a title="Under Development" style="color: darkred;font-family: 'Righteous', cursive;" href="#0">Game&nbsp;Info</a></li>
+                    <li style="background: none;"><a title="Under Development" style="color: darkred;font-family: 'Righteous', cursive;" href="#0">PB&nbsp;Analytics</a></li>
+                    <li><a style="font-family: 'Righteous', cursive;" href="developer.php">Developer</a></li>
+                    <li><a style="font-family: 'Righteous', cursive;" href="includes/logout.inc.php">Logout</a></li>
+                </ul>
+              </div>
+        </header>
     <div id="container">
         <div id="head">
             RECENT GAMES
