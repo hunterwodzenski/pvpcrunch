@@ -4,8 +4,7 @@ session_start();
 #check if user is logged in
 if(isset($_SESSION['id'])) {
 
-    #includes dependencies
-    include 'includes/rate-limit.inc.php';
+	#good
 
 } else {
 
