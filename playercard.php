@@ -371,17 +371,17 @@ DOC;
     <body id="body" ondragstart="return false;" ondrop="return false;" style="overflow: hidden">
         <!--Landing page header-->
         <header id="site-header">
-            <div>
-           	 <ul style="background: rgba(0, 51, 102, 0.50);">
-                <li style="background: none;"><a title="Under Development" style="color: darkred;font-family: 'Righteous', cursive;" href="#0">Dashboard</a></li>
-                <li><a style="font-family: 'Righteous', cursive;" href="recents.php">Recents</a></li>
-                <li><a style="font-family: 'Righteous', cursive; color: gray; text-decoration: overline;" href="#">Playercard</a></li>
-                <li style="background: none;"><a title="Under Development" style="color: darkred;font-family: 'Righteous', cursive;" href="#0">Game&nbsp;Info</a></li>
-                <li style="background: none;"><a title="Under Development" style="color: darkred;font-family: 'Righteous', cursive;" href="#0">PB&nbsp;Analytics</a></li>
-                <li style="background: none;"><a title="Under Development" style="color: darkred;font-family: 'Righteous', cursive;" href="#0">Developer</a></li>
-                <li><a style="font-family: 'Righteous', cursive;" href="user.html">User</a></li>
-          	  </ul>
-            </div>
+              <div>
+                <ul>
+                    <li style="background: none;"><a title="Under Development" style="color: darkred;font-family: 'Righteous', cursive;" href="#0">Dashboard</a></li>
+                    <li><a style="font-family: 'Righteous', cursive;" href="recents.php">Recents</a></li>
+                    <li><a style="font-family: 'Righteous', cursive;" href="#" style="color: gray; text-decoration: overline;">Playercard</a></li>
+                    <li style="background: none;"><a title="Under Development" style="color: darkred;font-family: 'Righteous', cursive;" href="#0">Game&nbsp;Info</a></li>
+                    <li style="background: none;"><a title="Under Development" style="color: darkred;font-family: 'Righteous', cursive;" href="#0">PB&nbsp;Analytics</a></li>
+                    <li><a style="font-family: 'Righteous', cursive;" href="developer.php">Developer</a></li>
+                    <li><a style="font-family: 'Righteous', cursive;" href="includes/logout.inc.php">Logout</a></li>
+                </ul>
+              </div>
         </header>
 
         <!--Introduction Section-->
