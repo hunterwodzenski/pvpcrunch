@@ -14,7 +14,8 @@ $opts = [
 try {
 	$conn = new PDO("mysql:host=$host;dbname=$db;charset=$charset", $user, $pass, $opts);
 } catch(PDOException $e) {
-	echo $e;
+	#echo $e;
+	header('Location: ../signup.php');
 }
 
 #Collect Form Data
