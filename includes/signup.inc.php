@@ -5,7 +5,7 @@ session_start();
 $host = 'localhost';
 $db = 'userdb';
 $user = 'root';
-$pass = 'password';
+$pass = '33KwO8cH88';
 $charset = 'utf8';
 $opts = [
     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
