@@ -129,10 +129,10 @@
                                 <span>Create an account</span>
                             </div>
                             <div>
-                                <input type="text" name="Ruid" placeholder="Username" required>
+                                <input type="text" name="Ruid" placeholder="Username | DISABLED 'TIL LAUNCH" required>
                             </div>
                             <div>
-                                <input title="8-character minimum" type="password" name="Rpwd" placeholder="Password" required>
+                                <input title="8-character minimum" type="password" name="Rpwd" placeholder="Password | DISABLED 'TIL LAUNCH" required>
                             </div>
                             <div>
                                 <select name="Rrgn" required>
@@ -150,7 +150,7 @@
                                 </select>
                             </div>
                             <div>
-                                <input type="text" name="Rsn" placeholder="Summoner Name" required>
+                                <input type="text" name="Rsn" placeholder="Summoner Name | DISABLED 'TIL LAUNCH" required>
                             </div>
                             <div>
                                 <button type="submit">Create&nbsp;Account</button>
