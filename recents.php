@@ -225,8 +225,9 @@ function call($result) {
 ?>
 
 <html>
+<!--Copyright 2017 PvPCrunch-->
 <head>
-	<meta name="copyright" content="Hunter D. Wodzenski">
+	<meta name="copyright" content="PvPCrunch">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
 
