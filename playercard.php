@@ -149,12 +149,13 @@ DOC;
 
 ?>
 <html>
+    <!--Copyright 2017 PvPCrunch-->
     <head>
         <title>
             PVPCrunch.COM
         </title>
         
-        <meta name="copyright" content="Hunter D. Wodzenski">
+        <meta name="copyright" content="PvPCrunch">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
 
