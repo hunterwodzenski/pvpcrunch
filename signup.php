@@ -18,8 +18,6 @@
 
         <style>
     
-            /*HANDLE TEXT SIZES WITH MEDIA - GIVE EVERY TEXT SIZE/IMPLEMENTATION A HX TAG AND CHANCE THROUGHOUT MEDIA QUERIES
-            /*RESET*/
             html, body {margin: 0; padding: 0;}
             body {
                 background: #000 url(images/swainbg.jpg) no-repeat fixed;
@@ -31,8 +29,6 @@
                 color: rgb(240, 150, 65);
                 font-size: calc(1em + .5vmax);
             }
-
-            /*INTRODUCTION SECTION*/
             #intro-section {
                 width: 100%;
                 height: 92.5%;
@@ -76,29 +72,33 @@
                                 }
                                     #intro-container > div > form > div > div > span {
                                         color: #F0F0F0;
-                                        font-size: 2.5vmax;    
+                                        font-size: calc(1em + 2.5vmax);    
                                     }
                                     #intro-container > div > form > div > div > input {
-                                        width: 30vw;
+                                        width: 80%;
                                         height: 7.5vh;
                                         border: .15em solid lightgray;
                                         background-color: #F0F0F0;
 
                                     }
                                     #intro-container > div > form > div > div > select {
-                                        width: 30vw;
+                                        width: 80%;
                                         height: 7.5vh;
                                     }
                                     #intro-container > div > form > div > div > button {
-                                        width: 10vmax;
-                                        height: 2.5vmax;
-                                        background-color: rgb(240, 150, 65);
-                                        border-color: lightgray;
+                                        width: 40%;
+                                        height: calc(1.5em + 2.25vmax);
+                                        background-color: rgba(240, 150, 65, .85);
+                                        border-color: black;
+                                        font-size: calc(.5em + .5vmax);
+                                        font-color: gray;
                                     }
-      
-            @media screen and (max-width: 800px)  {
-                #or {
-                    display: none;
+                                        #intro-container > div > form > div > div > button:hover {
+                                            border-color: lightgray;
+                                        }
+            @media (max-width: 750px)  {
+                #intro-container > div {
+                    width: 90vw;
                 }
             }
         </style>
@@ -111,11 +111,11 @@
             <ul>
                 <li><a style="font-family: 'Righteous', cursive;" href="index.php">HOME</a></li>
                 <li><a style="font-family: 'Righteous', cursive;" href="login.php">LOGIN</a></li>
-                <li><a style="font-family: 'Righteous', cursive;" href="signup.php">SIGN UP</a></li>
+                <li><a style="font-family: 'Righteous', cursive;" href="#">SIGN UP</a></li>
+                <li><a style="font-family: 'Righteous', cursive;" href="developer.html">DEVELOPER</a></li>
             </ul>
             </div>
         </header>
-
         <!--Introduction Section-->
         <section id="intro-section">
             <!--Intro Div Container-->

@@ -67,21 +67,22 @@
     <!--Disable dragging-->
     <body ondragstart="return false;" ondrop="return false;">
         <!--Landing page header-->
-        <header id="site-header">
-            <div>
-            <ul>
-                <li><a style="font-family: 'Righteous', cursive;" href="index.php">HOME</a></li>
-                <li><a style="font-family: 'Righteous', cursive;" href="login.php">LOGIN</a></li>
-                <li><a style="font-family: 'Righteous', cursive;" href="signup.php">SIGN UP</a></li>
-            </ul>
-            </div>
-        </header>
+    <header id="site-header">
+        <div>
+        <ul>
+            <li><a style="font-family: 'Righteous', cursive;" href="#">HOME</a></li>
+            <li><a style="font-family: 'Righteous', cursive;" href="login.php">LOGIN</a></li>
+            <li><a style="font-family: 'Righteous', cursive;" href="signup.php">SIGN UP</a></li>
+            <li><a style="font-family: 'Righteous', cursive;" href="developer.html">DEVELOPER</a></li>
+        </ul>
+        </div>
+    </header>
         <div id="main">
             <div id="main-image">
                 <img src="images/LOGO.png" />
             </div>
             <div id="main-subhead">
-                <span>Improve Your Game.</span>
+                <span>Review & Improve Your Game.</span>
             </div>
         </div>
     </body>
