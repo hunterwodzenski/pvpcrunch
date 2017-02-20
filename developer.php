@@ -47,59 +47,101 @@ if(isset($_SESSION['id'])) {
     #wrapper {
         width: 100%;
         height: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: flex-start;
-        justify-content: center;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
         #ad1 {
-            flex: 1;
+            -webkit-box-flex: 1;
+                -ms-flex: 1;
+                    flex: 1;
             width: 100%;
             height: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-flow: column nowrap;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-flow: column nowrap;
+                    flex-flow: column nowrap;
         }
         #ad1 > div {
-            flex: 1;
+            -webkit-box-flex: 1;
+                -ms-flex: 1;
+                    flex: 1;
             width: 100%;
             height: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            align-items: center;
-            justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
         }
         #main {
-            flex: 4;
+            -webkit-box-flex: 4;
+                -ms-flex: 4;
+                    flex: 4;
             width: 100%;
             height: auto;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            align-items: center;
-            justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
             background-color: rgba(0, 51, 102, 0.5);
             border-right: .15vmax solid rgb(240, 150, 65);
             border-left: .15vmax solid rgb(240, 150, 65);
             border-bottom: .15vmax solid rgb(240, 150, 65);
             text-align: center;
-            flex-flow: column nowrap;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-flow: column nowrap;
+                    flex-flow: column nowrap;
             font-family: 'Merriweather Sans', sans-serif;
             font-weight: 200;
         }
         #main > div {
-            flex: 1;
+            -webkit-box-flex: 1;
+                -ms-flex: 1;
+                    flex: 1;
         }
             #notes,
             #credit,
             #notice {
                 width: 100%;
                 height: auto;
-                flex: 1;
+                -webkit-box-flex: 1;
+                    -ms-flex: 1;
+                        flex: 1;
                 text-align: center;
                 font-size: calc(.5em + 3vmax);
                 color: white;
                 text-decoration: overline;
             }
             #body {
-                flex: 7;
+                -webkit-box-flex: 7;
+                    -ms-flex: 7;
+                        flex: 7;
                 height: auto;
                 width: 100%;
                 color: white;
@@ -121,28 +163,53 @@ if(isset($_SESSION['id'])) {
                                 margin-top: 2%;
                             }
         #ad2 {
-            flex: 1;
+            -webkit-box-flex: 1;
+                -ms-flex: 1;
+                    flex: 1;
             width: 100%;
             height: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-flow: column nowrap;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-flow: column nowrap;
+                    flex-flow: column nowrap;
         }
         #ad2 > div {
-            flex: 1;
+            -webkit-box-flex: 1;
+                -ms-flex: 1;
+                    flex: 1;
             width: 100%;
             height: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            align-items: center;
-            justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
         }
         #ad3 {
             width: 100%;
             height: auto;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            align-items: center;
-            justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
             margin-top: 5%;
             margin-bottom: 5%;
         }
@@ -150,7 +217,9 @@ if(isset($_SESSION['id'])) {
             #ad1, #ad2 {
                 visibility: hidden;
                 display: none;
-                flex: 0;
+                -webkit-box-flex: 0;
+                    -ms-flex: 0;
+                        flex: 0;
             }
         }
     </style>
