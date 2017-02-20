@@ -70,7 +70,7 @@ function call($result) {
                     document.getElementById("overall").innerHTML = "<button id='overallButton'>View Overall</button>";
                     var overall = document.getElementById("overallButton");
                     overall.onclick = function() {  
-                        document.getElementById("body").style.backgroundImage = "url('images/overallbg.png')";
+                        document.getElementById("body").style.backgroundImage = "url('images/League_of_Legends_ARAM.jpg')";
                         document.getElementById("champName").innerHTML = "Overall";
                         document.getElementById("stats-container").innerHTML = "<div>"+
                         "<div><span>Games Played: {$champion->stats->totalSessionsPlayed}</span></div>" +
@@ -178,7 +178,7 @@ DOC;
         <style>
             html, body {margin: 0; padding: 0;}
             body {
-                background: #000 url(images/rumblebg.jpg) no-repeat fixed;
+                background: #000 url(images/League_of_Legends_ARAM.jpg) no-repeat fixed;
                 background-position: center;
                 background-size: cover;
                 user-select: none;
