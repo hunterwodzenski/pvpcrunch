@@ -107,7 +107,7 @@
                 align-items: center;
                 justify-content: flex-start;
             }
-            @media (max-width: 750px)  {
+            @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) {
                 #intro-container > div:not(:nth-child(1)):not(:nth-child(3)) {
                     width: 90vw;
                 }
