@@ -156,6 +156,8 @@ if(isset($_SESSION['id'])) {
         <div id="ad1">
             <iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=14&l=ur1&category=computers_accesories&banner=09X96K4BJ164TAQ1EJR2&f=ifr&linkID=0f38e94b229c451ca6d090d245e6b38e&t=pvp0e-20&tracking_id=pvp0e-20" width="160" height="600" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0">
             </iframe>
+            <iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=14&l=ur1&category=gold&banner=03XNA10Y90SRJTP9Z282&f=ifr&linkID=1c0d45570c81ce00aea4ae9d54f3c401&t=pvp0e-20&tracking_id=pvp0e-20" width="160" height="600" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0">
+            </iframe>
         </div>
         <div id="main">
              <div>
@@ -239,12 +241,12 @@ if(isset($_SESSION['id'])) {
             </div>
         </div>
         <div id="ad2">
-            <iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=14&l=ur1&category=gold&banner=03XNA10Y90SRJTP9Z282&f=ifr&linkID=1c0d45570c81ce00aea4ae9d54f3c401&t=pvp0e-20&tracking_id=pvp0e-20" width="160" height="600" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0">
-            </iframe>
+<a target="_blank"  href="https://www.amazon.com/gp/offer-listing/B0153XHRPY/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0153XHRPY&linkCode=am2&tag=pvp0e-20&linkId=83a3f95ac902d4b51c656e5b3cc993a4"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B0153XHRPY&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=pvp0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=pvp0e-20&l=am2&o=1&a=B0153XHRPY" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
         </div>
     </div>
     <div id="ad3">
         <iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=48&l=ur1&category=game_downloads&banner=07YBAJRZ4ZYJNPDJS3G2&f=ifr&linkID=49e8c599c08d2c296c79e8dab103a107&t=pvp0e-20&tracking_id=pvp0e-20" width="728" height="90" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
+        <a target="_blank"  href="https://www.amazon.com/gp/offer-listing/B0153X7HKY/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0153X7HKY&linkCode=am2&tag=pvp0e-20&linkId=d7ba82e838cf19b46902e716010adf08"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B0153X7HKY&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=pvp0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=pvp0e-20&l=am2&o=1&a=B0153X7HKY" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
     </div>
 </body>
 </html>
