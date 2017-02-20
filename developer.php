@@ -177,19 +177,6 @@ if(isset($_SESSION['id'])) {
             </div>
         </div>
         <div id="main">
-             <div>
-                <div id="notice" style="margin-top: 5%;">
-                    NOTICE
-                </div>
-                <div id="body">
-                    <ul>
-                        <span>I'M NOT RITO</span>
-                        <li>
-                            PvPCrunch isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.
-                        </li>
-                    </ul>
-                </div>
-            </div>
             <div>
                 <div id="notes" style="margin-top: 5%;">
                     DEVELOPER NOTES
@@ -233,6 +220,19 @@ if(isset($_SESSION['id'])) {
                         </li>
                         <li>
                              Access to the PBAnalytics (Playerbase Analytics) page, which runs numbers from the sites users, generating ranks, averages, and general comparisons. | PBANALYTICS
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div id="notice" style="margin-top: 5%;">
+                    NOTICE
+                </div>
+                <div id="body">
+                    <ul>
+                        <span>I'M NOT RITO</span>
+                        <li>
+                            PvPCrunch isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.
                         </li>
                     </ul>
                 </div>
