@@ -485,7 +485,7 @@ function call($result) {
      html, body {padding: 0; margin: 0;}
 
      body {
-         background: #000 url(images/LoLB2.jpg);
+         background: #000 url(images/recent_games_background.jpg);
          background-size: cover;
          background-position: center;
          background-attachment: fixed;
