@@ -39,7 +39,7 @@ DOC;
 		     html, body {padding: 0; margin: 0;}
 
 		     body {
-		         background: #000 url(images/amumubg.jpg);
+		         background: #000 url(images/error_amumu_background.jpg);
 		         background-size: cover;
 		         background-position: center;
 		         background-attachment: fixed;
