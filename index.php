@@ -23,27 +23,47 @@
                 background: #ccc url(images/League_of_Legends_Battle_Background.jpg) no-repeat fixed;
                 background-position: center;
                 background-size: cover;
-                user-select: none;
+                -webkit-user-select: none;
+                   -moz-user-select: none;
+                    -ms-user-select: none;
+                        user-select: none;
             }
             #or {
                 color: rgb(240, 150, 65);
                 font-size: calc(1em + .5vmax);
             }
             #main {
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                align-items: center;
-                justify-content: center;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
                 width: 100%;
                 height: 92.5%;
-                flex-flow: column nowrap;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-flow: column nowrap;
+                        flex-flow: column nowrap;
             }
                 #main > #main-image {
                     width: 100%;
                     height: 100%;
-                    flex:4;
+                    -webkit-box-flex:4;
+                        -ms-flex:4;
+                            flex:4;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
-                    align-items: center;
-                    justify-content: center;
+                    -webkit-box-align: center;
+                        -ms-flex-align: center;
+                            align-items: center;
+                    -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                            justify-content: center;
                 }
                     #main > #main-image img {
                         width: 60vw;
@@ -52,10 +72,18 @@
                 #main > #main-subhead {
                     width: 100%;
                     height: 100%;
-                    flex: 1;
+                    -webkit-box-flex: 1;
+                        -ms-flex: 1;
+                            flex: 1;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
-                    align-items: flex-start;
-                    justify-content: center;
+                    -webkit-box-align: start;
+                        -ms-flex-align: start;
+                            align-items: flex-start;
+                    -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                            justify-content: center;
                 }
                     #main > #main-subhead span {
                         color: rgba(240, 150, 65, 1);
