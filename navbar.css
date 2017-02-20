@@ -1,12 +1,15 @@
-	  /*@import url(https://fonts.googleapis.com/css?family=Righteous);*/
-	  
+
 	  /*Navigation Bar*/
 	  #site-header {
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
 		background: transparent;
 		background-size: fill;
 		width: 100%;
-		align-items: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 		top: 0;
 		height: 7.5%;
 		align-items: center;
@@ -16,30 +19,54 @@
 		box-sizing: border-box;
 	  }
 		#site-header > div {
-			flex: 1;
+			-webkit-box-flex: 1;
+			    -ms-flex: 1;
+			        flex: 1;
+			display: -webkit-box;
+			display: -ms-flexbox;
 			display: flex;
 		}
 			#site-header > div > ul {
 				list-style: none;
+				display: -webkit-box;
+				display: -ms-flexbox;
 				display: flex;
-				flex-flow: row nowrap;
-				align-items: center;
+				-webkit-box-orient: horizontal;
+				-webkit-box-direction: normal;
+				    -ms-flex-flow: row nowrap;
+				        flex-flow: row nowrap;
+				-webkit-box-align: center;
+				    -ms-flex-align: center;
+				        align-items: center;
 				width: 100%;
 				text-align: center;
-				justify-content: center;
+				-webkit-box-pack: center;
+				    -ms-flex-pack: center;
+				        justify-content: center;
 			}
 				#site-header > div > ul > li {
-					flex: 1;
+					-webkit-box-flex: 1;
+					    -ms-flex: 1;
+					        flex: 1;
+					background: -webkit-radial-gradient(circle,rgba(0, 51, 102, 0.75), transparent);
 					background: radial-gradient(circle,rgba(0, 51, 102, 0.75), transparent);
 					height: 100%;
+					display: -webkit-box;
+					display: -ms-flexbox;
 					display: flex;
-					align-items: center;
-					justify-content: center;
+					-webkit-box-align: center;
+					    -ms-flex-align: center;
+					        align-items: center;
+					-webkit-box-pack: center;
+					    -ms-flex-pack: center;
+					        justify-content: center;
 					
 				}
 					#site-header > div > ul > li:hover {
+						background: -webkit-radial-gradient(circle,rgba(240, 150, 65, 0.50), transparent);
 						background: radial-gradient(circle,rgba(240, 150, 65, 0.50), transparent);
-						transition-delay: 1s;
+						-webkit-transition-delay: 1s;
+						        transition-delay: 1s;
 					}
 					#site-header > div > ul > li > a:link,
 					#site-header > div > ul > li > a:visited {
@@ -69,7 +96,10 @@
             }
                 /*change from row to column*/
                 #site-header > div > ul {
-                    flex-flow: column nowrap;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                        -ms-flex-flow: column nowrap;
+                            flex-flow: column nowrap;
                     height: auto;
 				}
 				/* align bar to left with 5% space from right | reset li flex hack to block so stoof dun mash*/
