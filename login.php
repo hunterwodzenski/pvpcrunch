@@ -44,7 +44,7 @@
                     align-items: center;
                     justify-content: center;
                 }
-                    #intro-container > div {
+                    #intro-container > div:not(:nth-child(1)):not(:nth-child(3)) {
                         width: 35vw;
                         height: 65%;
                         background-color: rgba(0, 51, 102, 0.75);
@@ -83,23 +83,38 @@
                                         height: 7.5vh;
                                         border: .15em solid lightgray;
                                         background-color: #F0F0F0;
+                                        font-size: calc(1em + .75vmax);
 
                                     }
                                     #intro-container > div > form > div > div > button {
                                         width: 40%;
-                                        height: calc(1.5em + 2.25vmax);
-                                        background-color: rgba(240, 150, 65, .85);
-                                        border-color: black;
-                                        font-size: calc(.5em + .5vmax);
-                                        font-color: gray;
+                                        height: 7.5vh;
+                                        background-color: transparent;);
+                                        border: .15em solid lightgray;
+                                        border-radius: 30% 0 0 0;
+                                        font-size: calc(.5em + 1vmax);
+                                        color: lightgray;
                                     }
                                         #intro-container > div > form > div > div > button:hover {
-                                            border-color: lightgray;
+                                            border-color: rgb(240, 150, 65);
+                                            color: rgb(240, 150, 65);
                                         }
       
+            #intro-container > div:not(:nth-child(2)) {
+                width: 30vw;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+            }
             @media (max-width: 750px)  {
-                #intro-container > div {
+                #intro-container > div:not(:nth-child(1)):not(:nth-child(3)) {
                     width: 90vw;
+                }
+                #intro-container > div:not(:nth-child(2)) {
+                    visibility: hidden;
+                    display: none;
+                    flex: 0;
                 }
             }
         </style>
@@ -117,13 +132,14 @@
             </ul>
             </div>
         </header>
-
         <!--Introduction Section-->
         <section id="intro-section">
             <!--Intro Div Container-->
             <div id="intro-container">
+                <div id="ad">
+                    <iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=14&l=ur1&category=gift_certificates&banner=0S32YAVKXXKQGNQSSGG2&f=ifr&linkID=8b513d59cd243260a71b27c32dbe6245&t=pvp0e-20&tracking_id=pvp0e-20" width="160" height="600" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
+                </div>
                 <div>
-                    <!--Login-->
                     <form action="includes/login.inc.php" method="POST">
                         <div>
                             <div>
@@ -137,9 +153,11 @@
                             </div>
                             <div>
                                 <button onclick="">Login</button>
-                            </dv>
+                            </div>
                         </div>
                     </form>
+                </div>
+                <div id="ad">
                 </div>
             </div>
         </section>

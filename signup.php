@@ -42,7 +42,7 @@
                     align-items: center;
                     justify-content: center;
                 }
-                    #intro-container > div {
+                    #intro-container > div:not(:nth-child(1)):not(:nth-child(3)) {
                         width: 35vw;
                         height: 65%;
                         background-color: rgba(0, 51, 102, 0.75);
@@ -80,26 +80,45 @@
                                         height: 7.5vh;
                                         border: .15em solid lightgray;
                                         background-color: #F0F0F0;
+                                        font-size: calc(1em + .75vmax);
 
                                     }
                                     #intro-container > div > form > div > div > select {
                                         width: 80%;
                                         height: 7.5vh;
+                                        font-size: calc(1em + .75vmax);
                                     }
+                                        #intro-container > div > form > div > div > select > option {
+                                            font-size: calc(.25em + .75vmax);
+                                        }
                                     #intro-container > div > form > div > div > button {
                                         width: 40%;
-                                        height: calc(1.5em + 2.25vmax);
-                                        background-color: rgba(240, 150, 65, .85);
-                                        border-color: black;
-                                        font-size: calc(.5em + .5vmax);
-                                        font-color: gray;
+                                        height: 7.5vh;
+                                        background-color: transparent;);
+                                        border: .15em solid lightgray;
+                                        border-radius: 30% 0 0 0;
+                                        font-size: calc(.5em + 1vmax);
+                                        color: lightgray;
                                     }
                                         #intro-container > div > form > div > div > button:hover {
-                                            border-color: lightgray;
+                                            border-color: rgb(240, 150, 65);
+                                            color: rgb(240, 150, 65);
                                         }
+            #intro-container > div:not(:nth-child(2)) {
+                width: 30vw;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+            }
             @media (max-width: 750px)  {
-                #intro-container > div {
+                #intro-container > div:not(:nth-child(1)):not(:nth-child(3)) {
                     width: 90vw;
+                }
+                #intro-container > div:not(:nth-child(2)) {
+                    visibility: hidden;
+                    display: none;
+                    flex: 0;
                 }
             }
         </style>
@@ -121,21 +140,24 @@
         <section id="intro-section">
             <!--Intro Div Container-->
             <div id="intro-container">
+                <div id="ad">
+                    <iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=14&l=ur1&category=primegift&banner=0ZWKW7ZFNM91W64BCX02&f=ifr&linkID=83dbf0855e74a700783f6e7c56b8aaf7&t=pvp0e-20&tracking_id=pvp0e-20" width="160" height="600" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
+                </div>
                 <div>
                     <!--Create Account-->
                     <form action="includes/signup.inc.php" method="POST">
                         <div>
                             <div>
-                                <span>Create an account</span>
+                                <span>Disabled Until Launch</span>
                             </div>
                             <div>
-                                <input type="text" name="Ruid" placeholder="Username | DISABLED 'TIL LAUNCH" required>
+                                <input type="text" name="Ruid" placeholder="Username" required disabled>
                             </div>
                             <div>
-                                <input title="8-character minimum" type="password" name="Rpwd" placeholder="Password | DISABLED 'TIL LAUNCH" required>
+                                <input title="8-character minimum" type="password" name="Rpwd" placeholder="Password" required disabled>
                             </div>
                             <div>
-                                <select name="Rrgn" required>
+                                <select name="Rrgn" required disabled>
                                     <option value="" disabled selected>Region</option>
                                     <option value="na">North America [NA]</option>
                                     <option value="eune">Europe Nordic & East [EUNE]</option>
@@ -150,13 +172,15 @@
                                 </select>
                             </div>
                             <div>
-                                <input type="text" name="Rsn" placeholder="Summoner Name | DISABLED 'TIL LAUNCH" required>
+                                <input type="text" name="Rsn" placeholder="Summoner Name" required disabled>
                             </div>
                             <div>
-                                <button type="submit">Create&nbsp;Account</button>
+                                <button type="submit" disabled>Create&nbsp;Account</button>
                             </div>
                         </div>
                     </form>
+                </div>
+                <div id="ad">
                 </div>
             </div>
         </section>
