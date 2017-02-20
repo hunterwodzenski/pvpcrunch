@@ -18,13 +18,15 @@
         <link rel="stylesheet" type="text/css" href="navbar.css" />
 
         <style>
-    
             html, body {margin: 0; padding: 0;}
             body {
                 background: #000 url(images/corkybg.jpg) no-repeat fixed;
                 background-position: center;
                 background-size: cover;
-                user-select: none;
+                -webkit-user-select: none;
+                   -moz-user-select: none;
+                    -ms-user-select: none;
+                        user-select: none;
             }
             #or {
                 color: rgb(240, 150, 65);
@@ -40,18 +42,30 @@
                 #intro-container{
                     width: 100%;
                     height: 100%;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
-                    align-items: center;
-                    justify-content: center;
+                    -webkit-box-align: center;
+                        -ms-flex-align: center;
+                            align-items: center;
+                    -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                            justify-content: center;
                 }
                     #intro-container > div:not(:nth-child(1)):not(:nth-child(3)) {
                         width: 35vw;
                         height: 65%;
                         background-color: rgba(0, 51, 102, 0.75);
                         border-radius: 5%;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
                         display: flex;
-                        align-items: flex-start;
-                        justify-content: center;
+                        -webkit-box-align: start;
+                            -ms-flex-align: start;
+                                align-items: flex-start;
+                        -webkit-box-pack: center;
+                            -ms-flex-pack: center;
+                                justify-content: center;
                         border: .15em solid rgb(240, 150, 65);
                     }
                         #intro-container > div > form {
@@ -63,13 +77,24 @@
                             #intro-container > div > form > div {
                                 width: 100%;
                                 height: 100%;
+                                display: -webkit-box;
+                                display: -ms-flexbox;
                                 display: flex;
-                                align-items: center;
-                                justify-content: center;
-                                flex-flow: column nowrap;
+                                -webkit-box-align: center;
+                                    -ms-flex-align: center;
+                                        align-items: center;
+                                -webkit-box-pack: center;
+                                    -ms-flex-pack: center;
+                                        justify-content: center;
+                                -webkit-box-orient: vertical;
+                                -webkit-box-direction: normal;
+                                    -ms-flex-flow: column nowrap;
+                                        flex-flow: column nowrap;
                             }
                                 #intro-container > div > form > div > div {
-                                    flex: 1;
+                                    -webkit-box-flex: 1;
+                                        -ms-flex: 1;
+                                            flex: 1;
                                     width: 100%;
                                     height: 100%;
                                 }
@@ -89,7 +114,7 @@
                                     #intro-container > div > form > div > div > button {
                                         width: 40%;
                                         height: 7.5vh;
-                                        background-color: transparent;);
+                                        background-color: transparent;
                                         border: .15em solid lightgray;
                                         border-radius: 30% 0 0 0;
                                         font-size: calc(.5em + 1vmax);
@@ -103,9 +128,15 @@
             #intro-container > div:not(:nth-child(2)) {
                 width: 30vw;
                 height: 100%;
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                align-items: center;
-                justify-content: flex-start;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
+                -webkit-box-pack: start;
+                    -ms-flex-pack: start;
+                        justify-content: flex-start;
             }
             @media (max-width: 750px)   {
                 #intro-container > div:not(:nth-child(1)):not(:nth-child(3)) {
@@ -114,7 +145,9 @@
                 #intro-container > div:not(:nth-child(2)) {
                     visibility: hidden;
                     display: none;
-                    flex: 0;
+                    -webkit-box-flex: 0;
+                        -ms-flex: 0;
+                            flex: 0;
                 }
             }
         </style>
