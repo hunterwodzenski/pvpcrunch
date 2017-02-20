@@ -226,16 +226,19 @@ if(isset($_SESSION['id'])) {
 </head>
 <body ondragstart="return false;" ondrop="return false;">
     <!--Flexbox Navigation-->
-    <header id="site-header">
-        <div>
-        <ul>
-            <li><a style="font-family: 'Righteous', cursive;" href="index.php">HOME</a></li>
-            <li><a style="font-family: 'Righteous', cursive;" href="login.php">LOGIN</a></li>
-            <li><a style="font-family: 'Righteous', cursive;" href="signup.php">SIGN UP</a></li>
-            <li><a style="font-family: 'Righteous', cursive;" href="#">DEVELOPER</a></li>
-        </ul>
-        </div>
-    </header>
+        <header id="site-header">
+              <div>
+                <ul>
+                    <li style="background: none;"><a title="Under Development" style="color: darkred;font-family: 'Righteous', cursive;" href="#0">Dashboard</a></li>
+                    <li><a style="font-family: 'Righteous', cursive;" href="recents.php">Recents</a></li>
+                    <li><a style="font-family: 'Righteous', cursive;" href="playercard.php">Playercard</a></li>
+                    <li style="background: none;"><a title="Under Development" style="color: darkred;font-family: 'Righteous', cursive;" href="#0">Game&nbsp;Info</a></li>
+                    <li style="background: none;"><a title="Under Development" style="color: darkred;font-family: 'Righteous', cursive;" href="#0">PB&nbsp;Analytics</a></li>
+                    <li><a style="font-family: 'Righteous', cursive;" href="#"  style="color: gray; text-decoration: overline;>Developer</a></li>
+                    <li><a style="font-family: 'Righteous', cursive;" href="includes/logout.inc.php">Logout</a></li>
+                </ul>
+              </div>
+        </header>
     <div id="wrapper">
         <div id="ad1">
             <div>
