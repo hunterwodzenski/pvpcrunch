@@ -58,6 +58,15 @@ if(isset($_SESSION['id'])) {
             display: flex;
             align-items: center;
             justify-content: center;
+            flex-flow: column nowrap;
+        }
+        #ad1 > div {
+            flex: 1;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         #main {
             flex: 4;
@@ -118,6 +127,15 @@ if(isset($_SESSION['id'])) {
             display: flex;
             align-items: center;
             justify-content: center;
+            flex-flow: column nowrap;
+        }
+        #ad2 > div {
+            flex: 1;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         #ad3 {
             width: 100%;
@@ -140,24 +158,23 @@ if(isset($_SESSION['id'])) {
 <body ondragstart="return false;" ondrop="return false;">
     <!--Flexbox Navigation-->
     <header id="site-header">
-          <div>
-            <ul>
-                <li style="background: none;"><a title="Under Development" style="color: darkred;font-family: 'Righteous', cursive;" href="#0">Dashboard</a></li>
-                                <li><a style="font-family: 'Righteous', cursive;" href="recents.php">Recents</a></li>
-                <li><a style="font-family: 'Righteous', cursive;" href="playercard.php">Playercard</a></li>
-                <li style="background: none;"><a title="Under Development" style="color: darkred;font-family: 'Righteous', cursive;" href="#0">Game&nbsp;Info</a></li>
-                <li style="background: none;"><a title="Under Development" style="color: darkred;font-family: 'Righteous', cursive;" href="#0">PB&nbsp;Analytics</a></li>
-                <li><a style="font-family: 'Righteous', cursive;" href="#" style="color: gray; text-decoration: overline;">Developer</a></li>
-                <li><a style="font-family: 'Righteous', cursive;" href="includes/logout.inc.php">Logout</a></li>
-            </ul>
-          </div>
+        <div>
+        <ul>
+            <li><a style="font-family: 'Righteous', cursive;" href="index.php">HOME</a></li>
+            <li><a style="font-family: 'Righteous', cursive;" href="login.php">LOGIN</a></li>
+            <li><a style="font-family: 'Righteous', cursive;" href="signup.php">SIGN UP</a></li>
+            <li><a style="font-family: 'Righteous', cursive;" href="#">DEVELOPER</a></li>
+        </ul>
+        </div>
     </header>
     <div id="wrapper">
         <div id="ad1">
-            <iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=14&l=ur1&category=computers_accesories&banner=09X96K4BJ164TAQ1EJR2&f=ifr&linkID=0f38e94b229c451ca6d090d245e6b38e&t=pvp0e-20&tracking_id=pvp0e-20" width="160" height="600" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0">
-            </iframe>
-            <iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=14&l=ur1&category=gold&banner=03XNA10Y90SRJTP9Z282&f=ifr&linkID=1c0d45570c81ce00aea4ae9d54f3c401&t=pvp0e-20&tracking_id=pvp0e-20" width="160" height="600" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0">
-            </iframe>
+            <div>
+                <a target="_blank"  href="https://www.amazon.com/gp/offer-listing/B0153XHRPY/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0153XHRPY&linkCode=am2&tag=pvp0e-20&linkId=e8dee64cc51c5d4b31c3c778778e05d6"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B0153XHRPY&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=pvp0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=pvp0e-20&l=am2&o=1&a=B0153XHRPY" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+            </div>
+            <div>
+                <a target="_blank"  href="https://www.amazon.com/gp/product/B0153X7HKY/ref=as_li_ss_il?ie=UTF8&th=1&linkCode=li3&tag=pvp0e-20&linkId=d13ef09427e58d1ac1e983f13d2cd2cc" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0153X7HKY&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=pvp0e-20" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=pvp0e-20&l=li3&o=1&a=B0153X7HKY" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+            </div>
         </div>
         <div id="main">
              <div>
@@ -241,12 +258,17 @@ if(isset($_SESSION['id'])) {
             </div>
         </div>
         <div id="ad2">
-<a target="_blank"  href="https://www.amazon.com/gp/offer-listing/B0153XHRPY/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0153XHRPY&linkCode=am2&tag=pvp0e-20&linkId=83a3f95ac902d4b51c656e5b3cc993a4"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B0153XHRPY&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=pvp0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=pvp0e-20&l=am2&o=1&a=B0153XHRPY" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+            <div>
+               <a target="_blank"  href="https://www.amazon.com/gp/product/B014X427WM/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B014X427WM&linkCode=as2&tag=pvp0e-20&linkId=3b550dd1a6054ea25f073e2ca3b08702"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B014X427WM&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=pvp0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=pvp0e-20&l=am2&o=1&a=B014X427WM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+            </div>
+            <div>
+                <a target="_blank"  href="https://www.amazon.com/gp/product/B0153XBEBM/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0153XBEBM&linkCode=as2&tag=pvp0e-20&linkId=3ee0fdf53f575c653805708dee1ea116"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B0153XBEBM&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=pvp0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=pvp0e-20&l=am2&o=1&a=B0153XBEBM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+            </div>
         </div>
     </div>
     <div id="ad3">
         <iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=48&l=ur1&category=game_downloads&banner=07YBAJRZ4ZYJNPDJS3G2&f=ifr&linkID=49e8c599c08d2c296c79e8dab103a107&t=pvp0e-20&tracking_id=pvp0e-20" width="728" height="90" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
-        <a target="_blank"  href="https://www.amazon.com/gp/offer-listing/B0153X7HKY/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0153X7HKY&linkCode=am2&tag=pvp0e-20&linkId=d7ba82e838cf19b46902e716010adf08"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B0153X7HKY&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=pvp0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=pvp0e-20&l=am2&o=1&a=B0153X7HKY" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
     </div>
 </body>
 </html>
+
