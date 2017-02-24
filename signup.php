@@ -166,7 +166,7 @@
                 <li><a style="font-family: 'Righteous', cursive;" href="index.php">HOME</a></li>
                 <li><a style="font-family: 'Righteous', cursive;" href="login.php">LOGIN</a></li>
                 <li><a style="font-family: 'Righteous', cursive;" href="#">SIGN UP</a></li>
-                <li><a style="font-family: 'Righteous', cursive;" href="developer.html">DEVELOPER</a></li>
+                <li><a style="font-family: 'Righteous', cursive;" href="developer.html">DEVELOPMENT</a></li>
             </ul>
             </div>
         </header>
