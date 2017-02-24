@@ -12,12 +12,13 @@
           });
         </script>
         <title>
-            PVPCrunch.COM
+            PvPCrunch | League of Legends Stats and Info
         </title>
         
         <meta name="copyright" content="PvPCrunch">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
+        <meta name="description" content="Welcome to PvPCrunch! Here you’ll find out everything you need about your League of Legends summoner and the game itself. Dive into your stats and Crunch numbers to review and improve your game.">
 
         <!--Fonts-->
         <link href="https://fonts.googleapis.com/css?family=Righteous|Sarpanch:900" rel="stylesheet">
