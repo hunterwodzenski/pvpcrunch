@@ -5,12 +5,13 @@
     <!--Copyright 2017 PvPCrunch-->
     <head>
         <title>
-            PVPCrunch.COM
+            PvPCrunch | Login | League of Legends Stats | Summoner Profile Login
         </title>
         
         <meta name="copyright" content="PvPCrunch">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
+        <meta name="description" content="Login to PvPCrunch.com here! After login, you will be redirected to your personal summoner pages.">
 
         <!--Fonts-->
         <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
