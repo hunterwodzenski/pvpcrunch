@@ -110,7 +110,7 @@
             <li><a style="font-family: 'Righteous', cursive;" href="#">HOME</a></li>
             <li><a style="font-family: 'Righteous', cursive;" href="login.php">LOGIN</a></li>
             <li><a style="font-family: 'Righteous', cursive;" href="signup.php">SIGN UP</a></li>
-            <li><a style="font-family: 'Righteous', cursive;" href="developer.html">DEVELOPER</a></li>
+            <li><a style="font-family: 'Righteous', cursive;" href="developer.html">DEVELOPMENT</a></li>
         </ul>
         </div>
     </header>
