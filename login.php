@@ -167,10 +167,10 @@
             </div>
         </header>
         <!--Introduction Section-->
-        <section id="intro-section">
+        <section id="intro-section" style="height: auto;">
             <!--Intro Div Container-->
-            <div id="intro-container">
-                <div id="ad">
+            <div id="intro-container" style="height: auto;">
+                <div id="ad" style="height: auto;">
                     <iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=14&l=ur1&category=gift_certificates&banner=0S32YAVKXXKQGNQSSGG2&f=ifr&linkID=8b513d59cd243260a71b27c32dbe6245&t=pvp0e-20&tracking_id=pvp0e-20" width="160" height="600" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
                 </div>
                 <div>

@@ -171,10 +171,10 @@
             </div>
         </header>
         <!--Introduction Section-->
-        <section id="intro-section">
+        <section id="intro-section" style="height: auto;">
             <!--Intro Div Container-->
-            <div id="intro-container">
-                <div id="ad">
+            <div id="intro-container" style="height: auto;">
+                <div id="ad" style="height: auto;">
                     <iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=14&l=ur1&category=primegift&banner=0ZWKW7ZFNM91W64BCX02&f=ifr&linkID=83dbf0855e74a700783f6e7c56b8aaf7&t=pvp0e-20&tracking_id=pvp0e-20" width="160" height="600" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
                 </div>
                 <div>
