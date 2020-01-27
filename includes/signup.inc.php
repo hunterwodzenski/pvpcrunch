@@ -42,7 +42,7 @@ if(strlen($uid) >= 16 && strlen($uid) <= 3) {
 	die();
 }
 
-#ensure password only contains letters, numbers..............ADD SPECIAL CHARACTERS, HUNTER!!!
+#ensure password only contains letters, numbers
 if(preg_match('/[^\w\s]/', $pwd)) {
 	#Redirect user back to signup page
 	header('Location: ../signup.php');
